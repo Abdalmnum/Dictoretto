@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.Dictoretto.Activities.CallUS">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نحن سعداء لتلقي استفساراتكم واقتراحاتكم"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اضف رسالة"
+            android:textSize="22sp"/>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/calender"/>
+
+        <EditText
+            android:layout_marginRight="10dp"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"/>
+
+        <LinearLayout
+
+            android:layout_marginTop="115dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/contacts_call_us"
+                android:textColor="#0c0fec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16676"
+                android:textSize="21sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="للمزيد اتصل ب "
+                android:textSize="21sp"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_margin="10dp"
+        android:text="إرسال"
+        android:textColor="#ffffff"
+        android:background="#f20303"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>

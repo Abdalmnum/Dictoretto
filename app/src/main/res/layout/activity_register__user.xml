@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Dictoretto.Activities.Register_User">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#000"
+            android:paddingLeft="15dp"
+            android:textSize="15sp"
+            android:drawableRight="@drawable/doctor"
+            android:layout_marginTop="15dp"
+            android:hint="الاسم بالكامل"/>
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#000"
+            android:paddingLeft="15dp"
+            android:textSize="15sp"
+            android:drawableRight="@drawable/doctor"
+            android:layout_marginTop="10dp"
+            android:hint="رقم الهاتف المحمول"/>
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#000"
+            android:paddingLeft="15dp"
+            android:textSize="15sp"
+            android:drawableRight="@drawable/doctor"
+            android:layout_marginTop="10dp"
+            android:hint="عنوان البريد الالكتروني"/>
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#000"
+            android:paddingLeft="15dp"
+            android:textSize="15sp"
+            android:drawableRight="@drawable/doctor"
+            android:layout_marginTop="10dp"
+            android:hint="كلمة المرور"/>
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <Button
+               android:layout_gravity="center"
+               android:id="@+id/butt_date"
+               android:layout_width="125dp"
+               android:layout_height="wrap_content"
+               android:text="تاريخ ميلادك"/>
+
+           <EditText
+               android:layout_weight="1"
+               android:id="@+id/date"
+               android:layout_marginLeft="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:textColor="#000"
+               android:paddingLeft="10dp"
+               android:textSize="15sp"
+               android:drawableRight="@drawable/doctor"
+               android:layout_marginTop="10dp"/>
+
+
+       </LinearLayout>
+
+        <RadioGroup
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="انثي "
+                android:textSize="15sp"/>
+
+            <RadioButton
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ذكر"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:paddingRight="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="النوع"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+
+        </RadioGroup>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:background="#e70606"
+            android:text="انشاء حساب"
+            android:textColor="#ffffff"
+            android:textSize="22sp"/>
+
+
+        </LinearLayout>
+
+</LinearLayout>
+

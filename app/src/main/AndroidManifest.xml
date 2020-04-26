@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vezeeta">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.Dictoretto.Activities.SelectDoctorActivity"></activity>
+        <activity android:name="com.example.Dictoretto.Activities.AreaActivity" />
+        <activity android:name="com.example.Dictoretto.Activities.BookActivity" />
+        <activity android:name="com.example.Dictoretto.Activities.Login" />
+        <activity android:name="com.example.Dictoretto.Activities.AboutUS" />
+        <activity android:name="com.example.Dictoretto.Activities.CallUS" />
+        <activity android:name="com.example.Dictoretto.Activities.Forgetpassword" />
+        <activity android:name="com.example.Dictoretto.Activities.Register" />
+        <activity android:name="com.example.Dictoretto.Activities.Register_User" />
+        <activity android:name="com.example.Dictoretto.Activities.Setting" />
+        <activity android:name="com.example.Dictoretto.Activities.Splash" />
+        <activity
+            android:name="com.example.Dictoretto.Activities.MainActivity"
+            android:label="@string/title_activity_home" />
+        <activity android:name="com.example.Dictoretto.Activities.Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

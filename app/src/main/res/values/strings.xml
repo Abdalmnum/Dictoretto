@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dictoretto</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_offers">Offers</string>
+    <string name="title_pharmacy">Pharmacy</string>
+    <string name="title_appointment">Appointment</string>
+    <string name="title_more">More</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo_txt">Future of Healthcare</string>
+    <string name="book_doctor_appointement">Book a Doctor Appointment</string>
+
+
+</resources>

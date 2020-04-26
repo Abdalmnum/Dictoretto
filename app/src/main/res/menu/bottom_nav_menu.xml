@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/search_gray"
+        android:title="@string/title_search" />
+
+    <item
+        android:id="@+id/navigation_offers"
+        android:icon="@drawable/offer"
+        android:title="@string/title_offers" />
+
+    <item
+        android:id="@+id/navigation_pharmacy"
+        android:icon="@drawable/pharmacy"
+        android:title="@string/title_pharmacy" />
+
+
+    <item
+        android:id="@+id/navigation_appointment"
+        android:icon="@drawable/appointment"
+        android:title="@string/title_appointment" />
+
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/more"
+        android:title="@string/title_more" />
+
+
+</menu>

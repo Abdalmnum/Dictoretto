@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/searchhhh"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context="com.example.Dictoretto.Fragments.SearchFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear_center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="D"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="50sp" />
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="7dp"
+                    android:layout_gravity="center"
+                    android:background="#ec0707" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ICTORETTO"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=".com"
+                android:textColor="#e90b0b"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/logo_txt"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttons"
+            android:drawableEnd="@drawable/hear"
+            android:drawableStart="@drawable/arrow_left"
+            android:drawableTint="@color/blue"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:text="احجز كشف دكتور"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttons"
+            android:drawableEnd="@drawable/phone"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:text="مكالمة عاجلة للدكتور"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/blue"
+            android:drawableTint="@color/blue"/>
+
+        <Button
+            android:id="@+id/btn_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttons"
+            android:drawableEnd="@drawable/scalpel"
+            android:drawableTint="@color/blue"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:text="حجز خدمة أو عملية"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/blue" />
+        <Button
+            android:id="@+id/btn_medicene"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttons"
+            android:drawableEnd="@drawable/drug"
+            android:drawableTint="@color/blue"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:text="حجز خدمة أو عملية"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/blue" />
+        <Button
+            android:id="@+id/btn_home_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttons"
+            android:drawableEnd="@drawable/book_doctor_home"
+            android:drawableTint="@color/blue"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:text="حجز خدمة أو عملية"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

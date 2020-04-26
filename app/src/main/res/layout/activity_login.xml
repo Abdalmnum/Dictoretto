@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Dictoretto.Activities.Login">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="من فضلك سجل دخولك لتتمكن من الحجز "
+            android:textSize="22sp"/>
+
+        <LinearLayout
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="#ffffff"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="center"
+                android:background="#0271cd"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="متابعة بحساب فيسبوك"
+                android:layout_gravity="center"
+                android:paddingRight="15dp"
+                android:textSize="15sp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/facebook"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/or"/>
+
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textColor="#000"
+            android:paddingLeft="15dp"
+            android:textSize="15sp"
+            android:drawableRight="@drawable/doctor"
+            android:layout_marginTop="15dp"
+            android:hint="Phone Number Or Email"/>
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textColor="#000"
+            android:paddingLeft="15dp"
+            android:textSize="15sp"
+            android:drawableRight="@drawable/password"
+            android:layout_marginTop="15dp"
+            android:hint="Password"/>
+
+        <TextView
+            android:id="@+id/forget_pass"
+            android:gravity="center"
+            android:textColor="#3c5a99"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="هل نسيت كلمة المرور"
+            android:layout_gravity="center"
+            android:textSize="22sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:background="#e70606"
+            android:text="تسجيل الدخول"
+            android:textColor="#ffffff"
+            android:textSize="22sp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

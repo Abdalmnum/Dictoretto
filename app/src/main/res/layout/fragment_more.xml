@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:orientation="vertical"
+    tools:context="com.example.Dictoretto.Fragments.MoreFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:drawableEnd="@drawable/arrow_left"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/settings"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:text="اعدادات"
+        android:textAllCaps="false" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/tv_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:drawableEnd="@drawable/arrow_left"
+        android:drawableStart="@drawable/call"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:text="اتصل بنا"
+        android:textAllCaps="false" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/tv_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:drawableEnd="@drawable/arrow_left"
+        android:drawableStart="@drawable/watch"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:text="عن فيزيتا"
+        android:textAllCaps="false" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/tv_favourites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:drawableEnd="@drawable/arrow_left"
+        android:drawableStart="@drawable/favorites"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:text="المفضلة"
+        android:textAllCaps="false" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/tv_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:drawableStart="@drawable/logout"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:text="تسجيل خروج"
+        android:textAllCaps="false" />
+
+</LinearLayout>
